@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍳 MyOnlinePantry  
 
-## Getting Started
+**Discover recipes you can actually cook with what you already have.**  
 
-First, run the development server:
+MyOnlinePantry helps you turn pantry ingredients into delicious meals. Just keep track of what you own, and the app will suggest recipes with detailed instructions and cooking videos so you never run out of ideas in the kitchen.  
 
+
+
+## 🌐 Live Demo  
+
+👉 [Visit MyOnlinePantry](https://your-live-site-link.com)   
+
+
+
+## ✨ Features  
+
+- 🥫 **Pantry Tracking** – Add, edit, and remove items to keep your pantry up to date  
+- 🍴 **Smart Recipe Suggestions** – Get personalized recipes powered by **Gemini AI**  
+- 📖 **Step-by-Step Cooking Guides** – Access full recipe pages with clear instructions  
+- ▶️ **Cooking Videos** – Watch tutorials pulled from YouTube via the **Google YouTube Data API**  
+- 🎨 **Smooth Experience** – Clean, animated UI for a modern feel  
+
+
+
+## 🛠️ Built With  
+
+- **Next.js + React** – Core framework and UI  
+- **MongoDB** – Pantry data storage  
+- **Firebase Auth** – User authentication  
+- **GSAP** – UI animations  
+- **Gemini API** – Recipe search and suggestions  
+- **Google YouTube Data API** – Fetching cooking tutorial videos  
+
+
+## 🚀 Development Setup (Optional)  
+
+If you’d like to run the project locally:  
+
+1. Clone the repo  
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/myonlinepantry.git
+cd myonlinepantry
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables in .env.local
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```ini
+MONGODB_URI=your_mongo_connection_string
+NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+GEMINI_API_KEY=your_gemini_key
+YOUTUBE_API_KEY=your_youtube_data_api_key
+```
 
-## Learn More
+4. Start the dev server
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Feel free to fork, submit issues, or open pull requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📜 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
