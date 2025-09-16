@@ -8,7 +8,7 @@ MyOnlinePantry helps you turn pantry ingredients into delicious meals. Just keep
 
 ## 🌐 Live Demo  
 
-👉 [Visit MyOnlinePantry](https://your-live-site-link.com)   
+👉 [Visit MyOnlinePantry](https://my-online-pantry.vercel.app/)   
 
 
 
